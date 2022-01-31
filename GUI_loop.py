@@ -20,7 +20,13 @@ class Window(QMainWindow, SUBSEAGUI.Ui_MainWindow):
             data = conn.recv()
             self.dybde.setText(str(data))
 
-def run(conn):
+def run(conn=None):
+
+    send_to_GUI, receive_from_GUI = Pipe()
+    conn = send_to_GUI
+    data_thread = threading.Thread(target=generate_data, args=(receive_from_GUI,))
+    data_thread.start()
+
     app = QtWidgets.QApplication(sys.argv)
     win = Window(conn)
     win.show()
@@ -34,11 +40,8 @@ def generate_data(conn):
         conn.send((random.randrange(65,97)))
 
 if __name__ == "__main__":
-    send_to_GUI, receive_from_GUI = Pipe()
+    # run()
 
-    data_thread = threading.Thread(target=generate_data, args=(receive_from_GUI,))
-    data_thread.start()
 
-    run(send_to_GUI)
 
 
