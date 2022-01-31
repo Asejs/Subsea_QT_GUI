@@ -11,7 +11,7 @@ class Window(QMainWindow, SUBSEAGUI.Ui_MainWindow):
     def __init__(self, conn, parent=None):
         super().__init__(parent)
         self.setupUi(self)
-        
+        self.btn_paa_5.clicked.connect(self.button_test)
         threading.Thread(target=lambda: self.recieve_and_set_text(conn)).start()
 
     def recieve_and_set_text(self, conn):
@@ -19,6 +19,11 @@ class Window(QMainWindow, SUBSEAGUI.Ui_MainWindow):
         while True:
             data = conn.recv()
             self.dybde.setText(str(data))
+
+
+    def button_test(self):
+        print("Clicked on button")
+
 
 def run(conn=None):
 
@@ -35,7 +40,7 @@ def run(conn=None):
 
 def generate_data(conn):
     while True:
-        time.sleep(0.5)
+        time.sleep(1)
         print("tring to send on pipe")
         conn.send((random.randrange(65,97)))
 
