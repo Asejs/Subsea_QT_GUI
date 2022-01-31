@@ -25,19 +25,6 @@ def run(conn):
     win = Window(conn)
     win.show()
     sys.exit(app.exec())
-    SUBSEAGUI.MainWindow = QtWidgets.QMainWindow()
-    ui = SUBSEAGUI.Ui_MainWindow()
-    ui.setupUi(SUBSEAGUI.MainWindow)
-
-
-    SUBSEAGUI.MainWindow.show()
-
-    while True:
-        data = str(conn.recv())
-        print(data)
-        ui.dybde.setText(data)
-
-        sys.exit(app.exec_())
 
 
 def generate_data(conn):
