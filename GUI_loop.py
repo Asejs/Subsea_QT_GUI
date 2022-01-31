@@ -40,8 +40,4 @@ def generate_data(conn):
         conn.send((random.randrange(65,97)))
 
 if __name__ == "__main__":
-    # run()
-
-
-
-
+    run()
