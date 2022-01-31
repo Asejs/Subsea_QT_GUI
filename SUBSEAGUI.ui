@@ -367,7 +367,7 @@
                </property>
                <property name="icon">
                 <iconset>
-                 <normaloff>images/camera.png</normaloff>images/camera.png</iconset>
+                 <normaloff>../UiS-Subsea-GUI/images/camera.png</normaloff>../UiS-Subsea-GUI/images/camera.png</iconset>
                </property>
                <property name="iconSize">
                 <size>
@@ -405,7 +405,7 @@
                </property>
                <property name="icon">
                 <iconset>
-                 <normaloff>images/camera.png</normaloff>images/camera.png</iconset>
+                 <normaloff>../UiS-Subsea-GUI/images/camera.png</normaloff>../UiS-Subsea-GUI/images/camera.png</iconset>
                </property>
                <property name="iconSize">
                 <size>
@@ -443,7 +443,7 @@
                </property>
                <property name="icon">
                 <iconset>
-                 <normaloff>images/kontroller.png</normaloff>images/kontroller.png</iconset>
+                 <normaloff>../UiS-Subsea-GUI/images/kontroller.png</normaloff>../UiS-Subsea-GUI/images/kontroller.png</iconset>
                </property>
                <property name="iconSize">
                 <size>
@@ -1201,7 +1201,7 @@ QPushButton { background-color: grey; color: red; }</string>
                   </property>
                   <layout class="QGridLayout" name="gridLayout_8">
                    <item row="4" column="0">
-                    <widget class="QLabel" name="spenn_5">
+                    <widget class="QLabel" name="label_spenning">
                      <property name="font">
                       <font>
                        <family>Roboto</family>
@@ -1216,7 +1216,7 @@ QPushButton { background-color: grey; color: red; }</string>
                     </widget>
                    </item>
                    <item row="8" column="1">
-                    <widget class="QLabel" name="skalering_12">
+                    <widget class="QLabel" name="temp_vann">
                      <property name="font">
                       <font>
                        <family>Roboto</family>
@@ -1235,7 +1235,7 @@ QPushButton { background-color: grey; color: red; }</string>
                     </widget>
                    </item>
                    <item row="8" column="0">
-                    <widget class="QLabel" name="temp_5">
+                    <widget class="QLabel" name="label_temp_vann">
                      <property name="font">
                       <font>
                        <family>Roboto</family>
@@ -1250,7 +1250,7 @@ QPushButton { background-color: grey; color: red; }</string>
                     </widget>
                    </item>
                    <item row="6" column="0">
-                    <widget class="QLabel" name="strom2_5">
+                    <widget class="QLabel" name="label_strom">
                      <property name="font">
                       <font>
                        <family>Roboto</family>
@@ -1265,7 +1265,7 @@ QPushButton { background-color: grey; color: red; }</string>
                     </widget>
                    </item>
                    <item row="5" column="0">
-                    <widget class="QLabel" name="strom1_5">
+                    <widget class="QLabel" name="label_strom1">
                      <property name="font">
                       <font>
                        <family>Roboto</family>
@@ -1280,7 +1280,7 @@ QPushButton { background-color: grey; color: red; }</string>
                     </widget>
                    </item>
                    <item row="6" column="1">
-                    <widget class="QLabel" name="skalering_10">
+                    <widget class="QLabel" name="strom2">
                      <property name="font">
                       <font>
                        <family>Roboto</family>
@@ -1299,7 +1299,7 @@ QPushButton { background-color: grey; color: red; }</string>
                     </widget>
                    </item>
                    <item row="7" column="0">
-                    <widget class="QLabel" name="orientering_5">
+                    <widget class="QLabel" name="label_orientering">
                      <property name="font">
                       <font>
                        <family>Roboto</family>
@@ -1314,7 +1314,7 @@ QPushButton { background-color: grey; color: red; }</string>
                     </widget>
                    </item>
                    <item row="4" column="1">
-                    <widget class="QLabel" name="skalering_8">
+                    <widget class="QLabel" name="spenning">
                      <property name="font">
                       <font>
                        <family>Roboto</family>
@@ -1333,7 +1333,7 @@ QPushButton { background-color: grey; color: red; }</string>
                     </widget>
                    </item>
                    <item row="3" column="0">
-                    <widget class="QLabel" name="dybde_5">
+                    <widget class="QLabel" name="label_dybde">
                      <property name="font">
                       <font>
                        <family>Roboto</family>
@@ -1348,7 +1348,7 @@ QPushButton { background-color: grey; color: red; }</string>
                     </widget>
                    </item>
                    <item row="3" column="1">
-                    <widget class="QLabel" name="skalering_7">
+                    <widget class="QLabel" name="dybde">
                      <property name="font">
                       <font>
                        <family>Roboto</family>
@@ -1367,7 +1367,7 @@ QPushButton { background-color: grey; color: red; }</string>
                     </widget>
                    </item>
                    <item row="2" column="1">
-                    <widget class="QLabel" name="skalering_6">
+                    <widget class="QLabel" name="skalering">
                      <property name="font">
                       <font>
                        <family>Roboto</family>
@@ -1386,7 +1386,7 @@ QPushButton { background-color: grey; color: red; }</string>
                     </widget>
                    </item>
                    <item row="5" column="1">
-                    <widget class="QLabel" name="skalering_9">
+                    <widget class="QLabel" name="strom1">
                      <property name="font">
                       <font>
                        <family>Roboto</family>
@@ -1405,7 +1405,7 @@ QPushButton { background-color: grey; color: red; }</string>
                     </widget>
                    </item>
                    <item row="7" column="1">
-                    <widget class="QLabel" name="skalering_13">
+                    <widget class="QLabel" name="orientering">
                      <property name="font">
                       <font>
                        <family>Roboto</family>
@@ -1424,7 +1424,7 @@ QPushButton { background-color: grey; color: red; }</string>
                     </widget>
                    </item>
                    <item row="2" column="0">
-                    <widget class="QLabel" name="skalering_5">
+                    <widget class="QLabel" name="label_skalering">
                      <property name="font">
                       <font>
                        <family>Roboto</family>
@@ -1439,7 +1439,7 @@ QPushButton { background-color: grey; color: red; }</string>
                     </widget>
                    </item>
                    <item row="1" column="1">
-                    <widget class="QLabel" name="skalering_14">
+                    <widget class="QLabel" name="tid">
                      <property name="font">
                       <font>
                        <family>Roboto</family>
@@ -1458,7 +1458,7 @@ QPushButton { background-color: grey; color: red; }</string>
                     </widget>
                    </item>
                    <item row="1" column="0">
-                    <widget class="QLabel" name="tid_5">
+                    <widget class="QLabel" name="label_tid">
                      <property name="font">
                       <font>
                        <family>Roboto</family>
@@ -1473,7 +1473,7 @@ QPushButton { background-color: grey; color: red; }</string>
                     </widget>
                    </item>
                    <item row="0" column="0">
-                    <widget class="QLabel" name="teller_5">
+                    <widget class="QLabel" name="label_teller">
                      <property name="font">
                       <font>
                        <family>Roboto</family>
@@ -1488,7 +1488,7 @@ QPushButton { background-color: grey; color: red; }</string>
                     </widget>
                    </item>
                    <item row="0" column="1">
-                    <widget class="QLabel" name="skalering_11">
+                    <widget class="QLabel" name="teller">
                      <property name="font">
                       <font>
                        <family>Roboto</family>
@@ -1570,6 +1570,25 @@ QPushButton { background-color: grey; color: red; }</string>
                       <enum>QFrame::Raised</enum>
                      </property>
                      <layout class="QGridLayout" name="gridLayout_3">
+                      <item row="1" column="0">
+                       <widget class="QPushButton" name="pushButton">
+                        <property name="maximumSize">
+                         <size>
+                          <width>40</width>
+                          <height>16777215</height>
+                         </size>
+                        </property>
+                        <property name="mouseTracking">
+                         <bool>false</bool>
+                        </property>
+                        <property name="tabletTracking">
+                         <bool>false</bool>
+                        </property>
+                        <property name="text">
+                         <string>På</string>
+                        </property>
+                       </widget>
+                      </item>
                       <item row="2" column="4">
                        <widget class="QLabel" name="manipulator_9">
                         <property name="font">
@@ -2679,7 +2698,7 @@ QPushButton { background-color: grey; color: red; }</string>
                   <string/>
                  </property>
                  <property name="pixmap">
-                  <pixmap>images/manipulator.png</pixmap>
+                  <pixmap>../UiS-Subsea-GUI/images/manipulator.png</pixmap>
                  </property>
                  <property name="scaledContents">
                   <bool>true</bool>
